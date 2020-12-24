@@ -25,7 +25,7 @@
 //background(0, 200, 0); my favorit green
 //info i need : x,y,heads,linked,id
 
-//this is just a new comment to test github
+//this is just a new comment to test github 
 
 var backGrdColor = 100;
 var piece;
