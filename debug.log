@@ -1,0 +1,7 @@
+[0516/041244.206:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0516/041244.209:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0516/041244.209:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+
+each piece will have two slots and two heads and you can change the inner body of yourself by rotating pieces and let the dominent pieces
+fire its tongue to capture the other piece of yours and so it will be attached too it 
+and each piece extend a fire for the squares behind it basically they add up their tongues but logarithmically
