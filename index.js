@@ -26,6 +26,7 @@
 //info i need : x,y,heads,linked,id
 
 //this is just a new comment to test github 
+//and another line
 
 var backGrdColor = 100;
 var piece;
