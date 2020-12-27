@@ -399,7 +399,7 @@ function setup(){
       //translate(-piece.pos.x, -piece.pos.y);
     }
     
-    fill('grey');
+    fill('grey'); //filling the map with the stripes 
     var b = (groundWidth-borderThink)/19;
     var q = (groundHeight-borderThink)/19;
     for (var s=0; s<b; s++){ 
@@ -469,7 +469,9 @@ function setup(){
       }
       piece.show();
       piece.side();
-      //piece.constrain();
+
+      //I might need to make the constrain and eat in the server and the server decides who eats who and who gets eaten 
+      piece.constrain();
 
 
       /* for(var i = 0 ; i < pieces.length; i++){
