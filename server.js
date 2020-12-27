@@ -79,6 +79,7 @@ setInterval(heartbeat, 10);
 
 function heartbeat() {
   //moving all the players
+  //in case one player minimized his browser then the piece will keep moving by the server 
   moving(piecesInfo);
   io.sockets.emit('heartbeat', piecesInfo);
 }
@@ -103,7 +104,7 @@ io.sockets.on(
       //socket.emit('myIdReady', socket.id);
 
       socket.on('start', function(k) {
-        piece = new Piece(k.x, k.y, k.heads, k.linked, socket.id);
+        let piece = new Piece(k.x, k.y, k.heads, k.linked, socket.id);
         piecesInfo.push(piece);
         //console.log(`piece ${piece.id}`);
         //socket.emit('yourId', socket.id);
