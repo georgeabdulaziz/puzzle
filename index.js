@@ -378,7 +378,7 @@ function setup(){
     if(start){
       var newzoom = 100 / (((centerX(piece, 'zoom')+centerY(piece, 'zoom')))+25); //translate(totalWidth / 3, totalHeight / 5.5); for this zoom
       zoom = lerp(zoom, newzoom, 0.1);
-      scale(zoom);
+      //scale(zoom);
       if(parseInt(centerShiftX) < parseInt(centerX(piece, 'newCenter'))){
         centerShiftX += 1;
       }
