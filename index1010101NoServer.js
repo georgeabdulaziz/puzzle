@@ -168,7 +168,7 @@ function mousePressed() {
   
   function setup(){
   
-    //console.log(`pixelDensity: ${pixelDensity()}`);
+    console.log(`pixelDensity: ${pixelDensity()}`);
       //createCanvas(totalWidth, totalHeight);
       createCanvas(windowWidth, windowHeight);
       unloadScrollBars();
