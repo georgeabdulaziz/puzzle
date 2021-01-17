@@ -373,10 +373,11 @@ function setup(){
     
     //translate(width, height);
     //translate(windowWidth, windowHeight);
-    translate(totalWidth / 3, totalHeight / 5.5);
+    //translate(totalWidth / 3, totalHeight / 5.5);
+    translate(totalWidth / 50, totalHeight / 100);
     //translate(width/2.5, height/3);
     if(start){
-      var newzoom = 100 / (((centerX(piece, 'zoom')+centerY(piece, 'zoom')))+25); //translate(totalWidth / 3, totalHeight / 5.5); for this zoom
+      var newzoom = 64 / (((centerX(piece, 'zoom')+centerY(piece, 'zoom')))+25); //translate(totalWidth / 3, totalHeight / 5.5); for this zoom
       zoom = lerp(zoom, newzoom, 0.1);
       //scale(zoom);
       if(parseInt(centerShiftX) < parseInt(centerX(piece, 'newCenter'))){
@@ -469,7 +470,7 @@ function setup(){
       }
       piece.show();
       piece.side();
-      //piece.constrain();
+      piece.constrain();
 
 
       /* for(var i = 0 ; i < pieces.length; i++){
