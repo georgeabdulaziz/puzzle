@@ -1,6 +1,5 @@
-
+name: dockerWorkflow
 on: [push]
-
 jobs:
   build-java:
 
