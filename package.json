@@ -9,7 +9,7 @@
     "jshint": "^2.12.0"
   },
   "scripts": {
-    "test": "jshint index.js"
+    "test": "jshint travisTest.js"
   },
   "keywords": [],
   "license": "ISC",
