@@ -1,20 +1,21 @@
 {
   "name": "puzzle",
   "version": "1.0.0",
-  "description": "",
+  "author": "George Abdulaziz",
+  "description": "This is a web browser multiplyer game",
   "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "jshint": "^2.12.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jshint index.js"
   },
   "keywords": [],
-  "author": "George Abdulaziz",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "immutability-helper": "^3.0.2",
     "socket.io": "^2.3.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.1.0"
   }
 }
