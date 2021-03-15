@@ -23,6 +23,7 @@
 //console.log(totalHeight);
 /// <reference path="./p5.global-mode.d.ts" />
 
+
 var totalWidth = 1000;
 var totalHeight = 1000;
 var borderThink = 100;
@@ -1327,3 +1328,5 @@ function Piece(x, y, heads, linked, piecePos, id, others){
 //when two pieces hit the border the cancel each other
 //defence: 10sec to repair, lasts 5sec| offence:3sec | speed: 17sec, lasts 7sec
 //after you eat the new piece will be protected by its own for like 3 sec 
+
+module.exports.piece = Piece;

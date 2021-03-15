@@ -233,3 +233,5 @@ function moving(allPuzzles){
     } */
   }
 }
+
+exports.app = app;

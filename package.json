@@ -6,10 +6,15 @@
   "main": "index.js",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "jshint": "^2.12.0"
+    "codecov": "^3.8.1",
+    "jshint": "^2.12.0",
+    "nyc": "^15.1.0"
   },
   "scripts": {
-    "test": "jshint travisTest.js"
+    "test": "nyc mocha --timeout 10000",
+    "test2": "mocha --recursive --exit",
+    "test1": "jshint travisTest.js",
+    "coverage": "nyc --reporter=locv --reporter=text-locv npm test"
   },
   "keywords": [],
   "license": "ISC",

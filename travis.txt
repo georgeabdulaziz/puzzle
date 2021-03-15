@@ -32,3 +32,10 @@ Create a package.json file and paste the following:
     "test": "jshint hello.js"
   }
 }
+
+
+language: node_js
+node_js:
+- "node"
+install: "npm install -r requirement.txt"
+after_success: <(curl -s https://codecov.io/bash)
