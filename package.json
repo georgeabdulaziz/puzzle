@@ -11,7 +11,8 @@
     "nyc": "^15.1.0"
   },
   "scripts": {
-    "test": "nyc mocha --timeout 10000",
+    "test": "nyc mocha",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "test2": "mocha --recursive --exit",
     "test1": "jshint travisTest.js",
     "coverage": "nyc --reporter=locv --reporter=text-locv npm test"
