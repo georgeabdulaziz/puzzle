@@ -85,7 +85,7 @@ function heartbeat() {
 
 
 // Register a callback function to run when we have an individual connection
-// This is run for each individual user that connects
+// This will run for each individual user that connects
 io.sockets.on(
   'connection',
   // We are given a websocket object in our function
